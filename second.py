@@ -11,3 +11,4 @@ gender_encoded=le.fit.transform(dt['Position'])
 df['Encoded_Gender']=gender_encoded
 df['Encoded_Postion']=encoded_position
 print(df)
+
